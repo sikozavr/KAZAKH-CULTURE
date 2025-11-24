@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мәдени мұра — Басты бет</title>
+<style>
+:root{--primary:#0f4c81;--accent:#f6bd4a;--muted:#6b7280}
+body{margin:0;font-family:"Segoe UI", sans-serif;background:#f5f7fa;color:#111;}
+a{text-decoration:none;color:inherit;}
+header{background:#fff;display:flex;align-items:center;justify-content:space-between;padding:12px 24px;box-shadow:0 6px 18px rgba(11,18,32,0.04);}
+.brand{font-weight:700;color:var(--primary);font-size:18px;}
+nav a{margin-left:18px;font-weight:600;color:#111;transition:0.2s;}
+nav a:hover{color:var(--primary);}
+section.hero{height:400px;background:url('https://upload.wikimedia.org/wikipedia/commons/0/0a/Kazakh_culture_traditional_items.jpg') center/cover no-repeat;display:flex;align-items:center;justify-content:center;position:relative;margin-top:12px;}
+.hero::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,0.45);}
+.hero .wrap{position:relative;text-align:center;color:white;z-index:2;max-width:780px;}
+.hero h1{font-size:36px;margin-bottom:12px;}
+.hero p{font-size:18px;line-height:1.5;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;max-width:1100px;margin:40px auto;padding:0 16px;}
+.card{background:#fff;padding:18px;border-radius:14px;box-shadow:0 6px 18px rgba(11,18,32,0.04);text-align:center;transition:0.2s;}
+.card:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(11,18,32,0.08);}
+.card h3{color:var(--primary);margin-bottom:10px;font-size:22px;}
+.card p{color:#555;font-size:16px;}
+.btn{display:inline-block;margin-top:12px;padding:8px 14px;border-radius:8px;background:var(--primary);color:#fff;font-weight:700;}
+footer{max-width:1100px;margin:26px auto;text-align:center;color:var(--muted);font-size:14px;padding-bottom:40px;}
+</style>
+</head>
+<body>
+<header>
+<div class="brand">Мәдени мұра</div>
+<nav>
+<a href="index.html">Басты бет</a>
+<a href="folklore.html">Фольклор</a>
+<a href="traditions.html">Салт-дәстүр</a>
+<a href="material.html">Материалдық мәдениет</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="wrap">
+<h1>Қазақ мәдениетін сақтайтын цифрлық платформа</h1>
+<p>Бұл сайт фольклор, дәстүр, эпос және материалдық мұраны жинақтап, цифрландыруға арналған.</p>
+</div>
+</section>
+
+<section class="grid">
+<article class="card">
+<h3>Фольклорды зерттеу</h3>
+<p>Ертегі, аңыз, мақал-мәтел және халық жырлары.</p>
+<a class="btn" href="folklore.html">Толық оқу</a>
+</article>
+
+<article class="card">
+<h3>Ұлттық дәстүрлер</h3>
+<p>Салт-дәстүрлер, рәсімдер және олардың мағынасы.</p>
+<a class="btn" href="traditions.html">Толық оқу</a>
+</article>
+
+<article class="card">
+<h3>Эпос және батырлар жыры</h3>
+<p>Қазақ эпосы: тарихи және этнологиялық тұрғыдан.</p>
+<a class="btn" href="folklore.html#epic">Толық оқу</a>
+</article>
+
+<article class="card">
+<h3>Материалдық мәдениет</h3>
+<p>Киіз үй, ұлттық киім, қолөнер және тұрмыстық жәдігерлер.</p>
+<a class="btn" href="material.html">Толық оқу</a>
+</article>
+</section>
+
+<footer>
+© Мәдени мұра — сандық қор. Жоба мәдениетті сақтауға бағытталған.
+</footer>
+</body>
+</html>

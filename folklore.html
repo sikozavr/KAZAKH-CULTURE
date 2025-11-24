@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Фольклор — Мәдени мұра</title>
+<style>
+:root{--primary:#0f4c81;--muted:#6b7280}
+body{margin:0;font-family:"Segoe UI", sans-serif;background:#f8fafc;color:#111;}
+header{background:#fff;display:flex;align-items:center;justify-content:space-between;padding:12px 24px;box-shadow:0 6px 18px rgba(11,18,32,0.04);}
+nav a{margin-left:18px;font-weight:600;color:#111;}
+nav a:hover{color:var(--primary);}
+.container{max-width:1100px;margin:20px auto;padding:0 16px;}
+.layout{display:flex;gap:18px;}
+.sidebar{width:280px;background:#fff;padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(11,18,32,0.03);}
+.sidebar h4{margin:0 0 8px;color:var(--primary);}
+.sidebar ul{padding:0;margin:0;list-style:none;}
+.sidebar li{padding:8px 0;border-bottom:1px solid #f0f2f4;}
+.main{flex:1;background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(11,18,32,0.04);}
+.main h2{color:var(--primary);margin-top:0;}
+.media{display:flex;gap:12px;margin-top:12px;}
+.media img{width:220px;height:140px;object-fit:cover;border-radius:8px;}
+.audio{margin-top:12px;}
+.download{display:inline-block;margin-top:12px;padding:8px 12px;background:var(--primary);color:#fff;border-radius:8px;text-decoration:none;}
+@media(max-width:900px){.layout{flex-direction:column}.sidebar{width:100%}.media{flex-direction:column}.media img{width:100%;height:auto}}
+</style>
+</head>
+<body>
+<header>
+<div class="brand" style="color:var(--primary);font-weight:700;">Мәдени мұра</div>
+<nav>
+<a href="index.html">Басты бет</a>
+<a href="folklore.html">Фольклор</a>
+<a href="traditions.html">Салт-дәстүр</a>
+<a href="material.html">Материалдық мәдениет</a>
+</nav>
+</header>
+
+<main class="container">
+<div class="layout">
+<aside class="sidebar">
+<h4>Фольклор бөлімдері</h4>
+<ul>
+<li>Ертегілер</li>
+<li>Аңыздар</li>
+<li>Батырлар жыры</li>
+<li>Мақал-мәтелдер</li>
+<li>Жыршылық дәстүрі</li>
+</ul>
+</aside>
+
+<section class="main">
+<h2>Фольклор — халық шығармашылығы</h2>
+<p>Фольклор — ұлттың рухани қазынасы. Бұл бөлімде біз қазақ ертегілері мен аңыздарын, батырлар жырларын, мақал-мәтелдерді жинақтап, аудио және текст нұсқаларын ұсынамыз.</p>
+
+<div class="media">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Kazakh_storytelling.jpg" alt="Сказание">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Dombra_musician.jpg" alt="Домбырашы">
+</div>
+
+<div class="audio">
+<p><strong>Аудио мысал (батырлар жыры):</strong></p>
+<audio controls>
+<source src="https://www2.cs.uic.edu/~i101/SoundFiles/StarWars3.wav" type="audio/wav">
+Сіздің шолғышыңыз аудио элементін қолдамайды.
+</audio>
+</div>
+
+<a class="download" href="#">Мәтінді жүктеу (PDF)</a>
+</section>
+</div>
+</main>
+</body>
+</html>
